@@ -1,0 +1,11 @@
+Nacos:
+  IpAddr: 10.80.1.67
+  Port: 18848
+  Path: /nacos
+  DataId: quick-start
+  Group: DEFAULT_GROUP
+  Namespace: huaxianglong # 对应huaxianglong环境
+  RequestTimeout: 5000
+  LogDir:
+  CacheDir:
+  LogLevel: info

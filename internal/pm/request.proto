@@ -1,0 +1,19 @@
+syntax = "proto3";
+package pm;
+option go_package = "quick-start/internal/pm";
+
+message Request {
+    uint64 seq = 1; //请求序列号
+    int64 uid = 2; //玩家id
+    string route = 3; //请求路由
+    int32 game_id = 4; //游戏id
+    string msg_id=5; //消息id
+    int64 timestamp = 6; //时间戳
+    string version = 7; //版本号
+    bytes body = 8; //请求体
+}
+
+// 登录游戏请求
+message LoginGameRequest {
+
+}
