@@ -5,10 +5,12 @@ go 1.24.11
 require (
 	github.com/SkyAPM/go2sky v1.5.0
 	github.com/fsnotify/fsnotify v1.9.0
+	github.com/go-redsync/redsync/v4 v4.15.0
 	github.com/go-viper/mapstructure/v2 v2.4.0
 	github.com/ivy-mobile/odin v0.2.8
 	github.com/nacos-group/nacos-sdk-go/v2 v2.3.5
 	github.com/olahol/melody v1.3.0
+	github.com/redis/go-redis/v9 v9.17.2
 	github.com/spf13/viper v1.21.0
 	google.golang.org/protobuf v1.36.6
 )
@@ -40,10 +42,13 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/clbanning/mxj/v2 v2.5.5 // indirect
 	github.com/deckarep/golang-set v1.7.1 // indirect
+	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/hashicorp/errwrap v1.1.0 // indirect
+	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
@@ -71,7 +76,7 @@ require (
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/crypto v0.37.0 // indirect
 	golang.org/x/net v0.38.0 // indirect
-	golang.org/x/sync v0.16.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
 	golang.org/x/sys v0.32.0 // indirect
 	golang.org/x/text v0.28.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
